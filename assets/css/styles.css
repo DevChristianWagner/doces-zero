@@ -1,0 +1,682 @@
+:root {
+    --primary-color: #fcc404;
+    --secondary-color: #f4cb29;
+
+    --border-color: #f7d449;
+
+    --text-color: #FFF;
+    --black-color: #000;
+
+    --font-poppins: 'Poppins', sans-serif;
+}
+
+/* --- */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-poppins);
+}
+
+header {
+    background-color: var(--primary-color);
+}
+
+header .container-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .grid-1 {
+    max-width: 500px;
+}
+
+header .grid-1 img {
+    width: 120px;
+}
+
+header .grid-1 h1 {
+    font-weight: 300;
+    line-height: 1;
+
+    font-size: 2.5rem;
+}
+
+header .grid-1 h1 span {
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+header .grid-1 p {
+    margin-bottom: 40px;
+
+}
+
+header .grid-1 p b {
+    color: var(--text-color);
+}
+
+header .grid-1 a {
+    background-color: var(--secondary-color);
+    padding: 20px 30px;
+    color: var(--black-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 50px;
+    box-shadow: inset 0px 0px 5px 1px var(--text-color);
+}
+
+header .grid-2 {
+    background-image: url(../imgs/bg-cupcake.png);
+    background-size: cover;
+    padding: 150px 40px;
+    box-shadow: inset 0px 0px 50px 10px var(--primary-color);
+}
+
+/* --- */
+
+.recp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recp h1 {
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    margin-bottom: -10px;
+}
+
+.recp li {
+    list-style: none;
+    background-color: var(--primary-color);
+    display: flex;
+    margin: 10px;
+    padding: 0 10px;
+    border-radius: 50px;
+    font-size: 14px;
+    z-index: 3;
+}
+
+.recp p {
+    text-align: center;
+    font-weight: 600;
+}
+
+.recp li img {
+    width: 25px;
+}
+
+/* --- */
+
+.ebook-bnf {
+    background-color: var(--primary-color);
+    margin-top: 39px;
+    background-image: url(../imgs/bg-cupcake.png);
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ebook-bnf .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 50px 30px var(--primary-color);
+
+}
+
+.ebook-bnf ul {
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.ebook-bnf .grid-1 img {
+    width: 350px;
+}
+
+.ebook-bnf .grid-2 {
+    margin-top: -50px;
+}
+
+.ebook-bnf .content li {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    list-style: none;
+    margin: 0;
+    border-bottom: 3px solid var(--border-color);
+}
+
+.ebook-bnf .content li img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    background-color: var(--secondary-color);
+    border-radius: 50px;
+}
+
+.ebook-bnf .content p {
+    margin: 10px;
+    
+}
+
+.ebook-bnf .content a {
+    background-color: var(--secondary-color);
+    padding: 20px 30px;
+    color: var(--black-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 50px;
+    box-shadow: inset 0px 0px 5px 1px var(--text-color);
+}
+
+/* --- */
+
+.reports {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+    text-align: center;
+}
+
+.reports .five-stars {
+    display: flex;
+}
+
+.five-stars img {
+    width: 25px;
+}
+
+.reports h1 {
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 1;
+    margin: 5px;
+}
+
+.reports p {
+    margin: 0;
+}
+
+.reports iframe {
+    margin: 20px;
+}
+
+.reports a {
+    background-color: var(--secondary-color);
+    padding: 20px 30px;
+    color: var(--black-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 50px;
+    box-shadow: inset 0px 0px 5px 1px var(--text-color);
+}
+
+/* --- */
+
+.price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--primary-color);
+}
+
+.price .text h1 {
+    font-weight: 400;
+    line-height: 1;
+    font-size: 22px;
+    margin-top: 50px;
+}
+
+.content-prices {
+    display: flex;
+    align-items: center;
+}
+
+.price ul {
+    padding: 0;
+}
+
+.price li {
+    display: flex;
+    justify-content: center;
+}
+
+.price p {
+    margin: 0;
+}
+
+.price-card {
+    border: 2px solid #000;
+    border-radius: 15px;
+    margin: 20px;
+    width: 350px;
+}
+
+.price .content-prices li img {
+    width: 20px;
+    height: 20px;
+    margin: auto 0;
+    background-color: var(--border-color);
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.price li p {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 5px 0;
+}
+
+.price h2 {
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: -20px;
+}
+
+.price .content-prices h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+.price h3 {
+    font-size: 40px;
+    line-height: 1;
+    margin: 10px;
+}
+
+.price a {
+    background-color: var(--secondary-color);
+    padding: 20px 30px;
+    color: var(--black-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 50px;
+    box-shadow: inset 0px 0px 5px 1px var(--text-color);
+}
+
+h1.price-value {
+    padding-bottom: 10px;
+    margin-bottom: 500px;
+}
+
+.space::after {
+    content: ' .';
+    color: var(--secondary-color);
+}
+
+span.line {
+    text-decoration: line-through;
+}
+
+/* --- Garantia --- */
+
+.guarantee {
+    display: flex;
+    align-items: center;;
+    justify-content: space-around;
+    text-align: left;
+    font-size: 20px;
+    color: var(--color-white);
+    padding: 30px 15px;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.guarantee h1 {
+    font-weight: 700;
+    text-transform: uppercase !important;
+    margin: 20px 0 !important;
+}
+
+.guarantee p {
+    font-size: 17.5px;
+    padding: 5px;
+}
+
+.guarantee img {
+    width: 250px;
+    margin-right: 40px;
+}
+
+@media only screen and (max-width: 950px) {
+    .guarantee {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .guarantee img {
+        margin: 0;
+    }
+}
+
+
+/* --- FAQ ---*/
+
+.faqs {
+    padding-bottom: 60px;
+}
+
+.faqs .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.faqs .title h1 {
+    font-weight: 700;
+    font-size: 100px;
+    letter-spacing: 13px;
+    z-index: 2;
+    color: var(--secondary-color);
+    opacity: 0.1;
+}
+
+.faqs .title h2 {
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+.faqs .text p {
+    max-width:700px;
+    margin: 20px auto;
+}
+
+/* --- faq accordion --- */
+
+ .faq {
+    width: 90vw;
+    max-width: 1050px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin: 0 auto;
+    color: #000;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    margin: 9px;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.question h3 {
+    font-size: 1.1rem;
+    text-align: left;
+    font-weight: 500;
+    margin: 4px 0;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .5s ease;
+}
+
+.answer p {
+    line-height: 1.2;
+    font-size: 1.2rem;
+    text-align: left;
+    margin: 0 !important;
+    text-align: left !important;
+    max-width: 85vw !important;
+    padding: 10px 20px;
+    color: var(--color-white);
+    z-index: 999;
+}
+
+.faq.active .answer {
+    max-height: 300px;
+    animation: fade 1s ease-in-out;
+}
+
+.faq.active img {
+    transform: rotate(180deg);
+    transition: transform .5s ease-in;
+}
+
+@keyframes fade {
+    from {
+        opacity: 1;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+@media only screen and (max-width: 1100px) {
+    .faqs .title h1 {
+        font-weight: 700;
+        font-size: 80px;
+        letter-spacing: 13px;
+        z-index: 2;
+        color: var(--secondary-color);
+        opacity: 0.1;
+    }
+
+    .faqs .title h2 {
+        margin: 0;
+        font-size: 35px;
+        letter-spacing: -1px;
+        z-index: 1;
+    }
+
+}
+
+/* Outros */
+
+iframe {
+    width: 82vw;
+    height: 50vw;
+    max-width: 600px;
+    max-height: 300px;
+}
+
+/* Responsividade */
+
+@media (max-width: 790px) {
+
+    header {
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 7vw !important;
+        margin: 20px;
+    }
+
+    header .container-content {
+        flex-direction: column;
+    }
+
+    header .container-content .grid-2 {
+        height: 100px;
+        margin-top: 40px;
+    }
+
+    header .container-content .grid-2 img {
+        width: 250px;
+        padding: 20px;
+        margin-top: -130px;
+    }
+
+    /* --- recp --- */
+
+   
+    .recp ul {
+        padding: 0;
+    }
+    
+    .recp h1 {
+        font-weight: 300;
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    .recp li {
+        list-style: none;
+        background-color: var(--primary-color);
+        display: flex;
+        font-size: 13px;
+    }
+    
+    .recp li p {
+        text-align: left;
+    }
+    
+    .recp li img {
+        width: 22px;
+    }
+
+    /* --- */
+
+    .ebook-bnf .grid-1 {
+        display: none;
+    }
+
+    .ebook-bnf .grid-2 {
+        width: 80vw;
+    }
+
+    .ebook-bnf .content {
+        box-shadow: 0px 0px 20px 0px var(--primary-color);
+        width: 90vw;
+        margin: 0;
+    }
+
+
+    /* --- */
+
+    .content-prices {
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .price-card {
+        width: 90vw;
+        max-width: 350px;
+    }
+
+    body > section.faqs > div.text > div > h2 {
+        margin-top: 0;
+        line-height: 1;
+    }
+
+
+}
+
+@media (max-width: 720px) {
+    header .container-content .grid-2 {
+        height: 100px;
+        margin-top: 40px;
+    }
+
+    header .container-content .grid-2 img {
+        width: 200px;
+        padding: 20px;
+        margin-top: -130px;
+    }
+}
+
+@media (max-width: 600px) {
+    header p {
+        font-size: 3vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --- Whatsapp button */
+
+.whatsapp-button img {
+    width: 40px;
+    background: transparent;
+    margin-bottom: -4px;
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    background-color: #53ce60;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    z-index: 100;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.whatsapp-button::before, .whatsapp-button::after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    left: -25px;
+    right: -25px;
+    top: -25px;
+    bottom: -25px;
+    border: 26px solid #53ce5f50;
+    animation: pulse 1.5s linear infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+
