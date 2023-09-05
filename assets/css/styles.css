@@ -334,7 +334,7 @@ header .grid-2 {
 .price h2 {
     font-weight: 500;
     font-size: 15px;
-    margin-bottom: -20px;
+    margin-bottom: -9px;
 }
 
 .price .content-prices h1 {
@@ -362,11 +362,12 @@ header .grid-2 {
 h1.price-value {
     padding-bottom: 10px;
     margin-bottom: 500px;
+    padding-bottom: 25px;
 }
 
-.space::after {
-    content: ' .';
+.space {
     color: var(--secondary-color);
+    padding-bottom: 10px;
 }
 
 span.line {
