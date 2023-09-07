@@ -346,6 +346,7 @@ header .grid-2 {
     font-size: 40px;
     line-height: 1;
     margin: 10px;
+    font-style: italic;
 }
 
 .price a {
@@ -576,7 +577,6 @@ iframe {
     }
 
     /* --- recp --- */
-
    
     .recp ul {
         padding: 0;
@@ -659,28 +659,17 @@ iframe {
     }
 }
 
+footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 30px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+footer h1 {
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 25px;
+} 
 
 /* --- Whatsapp button */
 
@@ -729,4 +718,3 @@ iframe {
         opacity: 0;
     }
 }
-
